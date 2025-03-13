@@ -1,0 +1,7 @@
+.view-product {
+	background-color: rgb(192, 220, 254);
+	text-align: center;
+
+	img { height: 5em; }
+	h2, p { margin: 0; }
+}

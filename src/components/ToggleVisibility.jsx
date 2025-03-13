@@ -17,8 +17,15 @@ const ToggleVisibility = () => {
 
 	return (
 		<section className="toggle-visibility">
-			<button onClick={() => setIsVisible(true)}> Visa </button>
-			<button onClick={() => setIsVisible(false)}> Dölj </button>
+			<button
+				onClick={() => setIsVisible(true)}
+				disabled={isVisible}> Visa
+			</button>
+			<button
+				onClick={() => setIsVisible(false)}
+				disabled={!isVisible}> Dölj
+			</button>
+
 			{isVisible ?  (<p> Jag ska växla mellan synlig och osynlig. </p>) : null}
 			<p className={isVisible ? '' : 'be-gone'}> Jag döljs med hjälp av <code>display: none</code>.</p>
 			<p className={isVisible ? '' : 'invisible'}> Jag döljs med hjälp av <code>opacity: 0</code>.</p>
