@@ -1,5 +1,6 @@
 import './App.css'
 import CountClicks from './components/CountClicks.jsx'
+import Happy from './components/Happy.jsx'
 
 const App = () => {
 
@@ -10,6 +11,7 @@ const App = () => {
 		</header>
 		<main>
 			<CountClicks />
+			<Happy />
 		</main>
 		</>
 	)
