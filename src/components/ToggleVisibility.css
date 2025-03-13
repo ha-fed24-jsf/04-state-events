@@ -1,0 +1,20 @@
+.toggle-visibility {
+
+	button {
+		border-radius: 0.2em;
+		border: 1px solid darkgray;
+		padding: 0.2em 0.5em;
+		margin: 0 0.4em;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.be-gone {
+		display: none;
+	}
+	.invisible {
+		opacity: 0;
+	}
+}
